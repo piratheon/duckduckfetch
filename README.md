@@ -19,7 +19,8 @@ You can install DuckDuckFetch directly from this GitHub repository:
 ```bash
 git clone https://github.com/piratheon/duckduckfetch.git
 cd duckduckfetch
-pip install -r python/requirements.txt
+python -m venv .venv
+.venv/bin/pip install -r src/requirements.txt
 ```
 
 ## Usage
