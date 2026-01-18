@@ -1,0 +1,7 @@
+# This is an example file for proxies.
+# The format is scheme://ip:port or ip:port
+# Lines starting with # are comments.
+
+http://127.0.0.1:8080
+https://127.0.0.1:8081
+socks5://127.0.0.1:1080
